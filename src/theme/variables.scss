@@ -2,30 +2,31 @@
 // http://ionicframework.com/docs/theming/
 
 /** Ionic CSS Variables **/
+
 :root {
   /** primary **/
-  --ion-color-primary: #3880ff;
+  --ion-color-primary: rgb(37, 70, 53);
   --ion-color-primary-rgb: 56, 128, 255;
   --ion-color-primary-contrast: #ffffff;
   --ion-color-primary-contrast-rgb: 255, 255, 255;
-  --ion-color-primary-shade: #3171e0;
-  --ion-color-primary-tint: #4c8dff;
+  --ion-color-primary-shade: rgb(37, 70, 53);
+  --ion-color-primary-tint: #rgb(37, 70, 53);
 
   /** secondary **/
-  --ion-color-secondary: #3dc2ff;
+  --ion-color-secondary: rgb(37, 70, 53);
   --ion-color-secondary-rgb: 61, 194, 255;
   --ion-color-secondary-contrast: #ffffff;
   --ion-color-secondary-contrast-rgb: 255, 255, 255;
-  --ion-color-secondary-shade: #36abe0;
-  --ion-color-secondary-tint: #50c8ff;
+  --ion-color-secondary-shade: rgb(37, 70, 53);
+  --ion-color-secondary-tint: rgb(37, 70, 53);
 
   /** tertiary **/
-  --ion-color-tertiary: #5260ff;
+  --ion-color-tertiary: rgb(37, 70, 53);
   --ion-color-tertiary-rgb: 82, 96, 255;
   --ion-color-tertiary-contrast: #ffffff;
   --ion-color-tertiary-contrast-rgb: 255, 255, 255;
-  --ion-color-tertiary-shade: #4854e0;
-  --ion-color-tertiary-tint: #6370ff;
+  --ion-color-tertiary-shade: rgb(37, 70, 53);
+  --ion-color-tertiary-tint: rgb(37, 70, 53);
 
   /** success **/
   --ion-color-success: #2dd36f;
@@ -83,7 +84,7 @@
    */
 
   body {
-    --ion-color-primary: #428cff;
+    --ion-color-primary: #fff;
     --ion-color-primary-rgb: 66,140,255;
     --ion-color-primary-contrast: #ffffff;
     --ion-color-primary-contrast-rgb: 255,255,255;
@@ -197,10 +198,11 @@
    */
 
   .md body {
-    --ion-background-color: #121212;
+    --ion-background-color: #fff;
     --ion-background-color-rgb: 18,18,18;
 
-    --ion-text-color: #ffffff;
+    --ion-text-color: #fff;
+    --ion-text2-color: #000;
     --ion-text-color-rgb: 255,255,255;
 
     --ion-border-color: #222222;
@@ -225,12 +227,12 @@
     --ion-color-step-900: #e7e7e7;
     --ion-color-step-950: #f3f3f3;
 
-    --ion-item-background: #1e1e1e;
+    --ion-item-background: rgb(37, 70, 53);
 
-    --ion-toolbar-background: #1f1f1f;
+    --ion-toolbar-background: rgb(37, 70, 53);
 
     --ion-tab-bar-background: #1f1f1f;
 
-    --ion-card-background: #1e1e1e;
+    --ion-card-background: #fff;
   }
 }

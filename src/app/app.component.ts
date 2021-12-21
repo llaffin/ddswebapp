@@ -4,15 +4,18 @@ import { Component } from '@angular/core';
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.scss'],
 })
+
 export class AppComponent {
   public appPages = [
-    { title: 'Inbox', url: '/folder/Inbox', icon: 'mail' },
-    { title: 'Outbox', url: '/folder/Outbox', icon: 'paper-plane' },
-    { title: 'Favorites', url: '/folder/Favorites', icon: 'heart' },
-    { title: 'Archived', url: '/folder/Archived', icon: 'archive' },
-    { title: 'Trash', url: '/folder/Trash', icon: 'trash' },
-    { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
+    { title: 'Athlete Profile', url: '/folder/athleteprofile', icon: 'person' },
+    { title: 'Programming', url: '/folder/programming', icon: 'book' },
+    { title: 'Training Analysis', url: '/folder/traininganalysis', icon: 'bar-chart' },
+    { title: 'Bodyweight Log', url: '/folder/bodyweightlog', icon: 'scale' },
+    { title: 'Check-In', url: '/folder/checkin', icon: 'clipboard' },
+    { title: 'RPE Tables', url: '/folder/rpetables', icon: 'tablet-landscape' },
+    { title: 'Attempt Selection', url: '/folder/attemptselections', icon: 'barbell' },
+    { title: 'Notes', url: '/folder/notes', icon: 'pencil' }
   ];
-  public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
+
   constructor() {}
 }
