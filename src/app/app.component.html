@@ -5,11 +5,7 @@
         <ion-list id="inbox-list">
           <div class="menu-header-bg"></div>
           <div class="header-content">
-            <img src="assets/avatar.png">
-            <ion-label>
-              <h1>Luc Laffin</h1>
-              <h2>@laffin.strength</h2>
-            </ion-label>
+            <img src="assets/logo.png">
           </div>
           <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages; let i = index">
             <ion-item routerDirection="root" [routerLink]="[p.url]" lines="none" detail="false" routerLinkActive="selected">
