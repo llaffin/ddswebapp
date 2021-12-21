@@ -1,0 +1,7 @@
+{
+  "name": "datadrivenstrengthwebapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
