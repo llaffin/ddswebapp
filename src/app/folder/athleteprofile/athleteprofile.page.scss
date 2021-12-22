@@ -9,3 +9,12 @@ ion-buttons {
         background-color: transparent;
     }
 }
+
+ion-tab-bar {
+    background: rgb(37, 70, 53);
+}
+
+ion-tab-button {
+    --color-selected: #fff;
+    background-color: transparent;
+}

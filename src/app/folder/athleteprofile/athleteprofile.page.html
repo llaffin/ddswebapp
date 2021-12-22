@@ -11,6 +11,19 @@
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
-<ion-content fullscreen="true">
-  <ion-button class="logoutBtn" (click)='logout()' fill="clear">Log Out</ion-button>
-</ion-content>
+<ion-tabs>
+  <ion-tab-bar slot="bottom, top">
+    <ion-tab-button tab="profile">
+      <ion-icon name="person"></ion-icon>
+      <ion-label>Profile</ion-label>
+    </ion-tab-button>
+    <ion-tab-button tab="metrics">
+      <ion-icon name="analytics"></ion-icon>
+      <ion-label>Metrics</ion-label>
+    </ion-tab-button>
+    <ion-tab-button tab="cycle-plan">
+      <ion-icon name="bar-chart"></ion-icon>
+      <ion-label>Cycle Plan</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>

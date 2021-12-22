@@ -20,7 +20,7 @@ constructor(private router: Router){}
         }
         else {
           resolve(false);
-          this.router.navigate(['/login'])
+          this.router.navigate(['login'])
         }
       })
     });
