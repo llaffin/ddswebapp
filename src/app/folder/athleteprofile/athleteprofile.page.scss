@@ -1,0 +1,11 @@
+.logoutBtn {
+    align-items: center;
+    display: flex;
+    --ion-background-color: rgb(37,70,53);
+}
+
+ion-buttons {
+    ion-button {
+        background-color: transparent;
+    }
+}

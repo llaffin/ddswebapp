@@ -6,15 +6,16 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
+
   public appPages = [
-    { title: 'Athlete Profile', url: '/folder/athleteprofile/athleteprofile', icon: 'person' },
-    { title: 'Programming', url: '/folder/programming/programming', icon: 'book' },
-    { title: 'Training Analysis', url: '/folder/traininganalysis/traininganalysis', icon: 'bar-chart' },
-    { title: 'Bodyweight Log', url: '/folder/bodyweightlog/bodyweightlog', icon: 'scale' },
-    { title: 'Check-In', url: '/folder/checkin/checkin', icon: 'clipboard' },
-    { title: 'RPE Tables', url: '/folder/rpetables/rpetables', icon: 'tablet-landscape' },
-    { title: 'Attempt Selection', url: '/folder/attemptselections/attemptselections', icon: 'barbell' },
-    { title: 'Notes', url: '/folder/notes/notes', icon: 'pencil' }
+    { title: 'Athlete Profile', url: '/athlete-profile', icon: 'person' },
+    { title: 'Programming', url: '/programming', icon: 'book' },
+    { title: 'Training Analysis', url: '/training-analysis', icon: 'bar-chart' },
+    { title: 'Bodyweight Log', url: '/bodyweight-log', icon: 'scale' },
+    { title: 'Check-In', url: '/check-in', icon: 'clipboard' },
+    { title: 'RPE Tables', url: '/rpe-tables', icon: 'tablet-landscape' },
+    { title: 'Attempt Selections', url: '/attempt-selections', icon: 'barbell' },
+    { title: 'Notes', url: '/notes', icon: 'pencil' }
   ];
 
   constructor() {}

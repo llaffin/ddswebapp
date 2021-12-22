@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import firebase  from 'firebase/compat/app';
+import firebase from 'firebase/compat/app';
 import { AngularFireAuth } from '@angular/fire/compat/auth';
 
 @Injectable({
@@ -16,5 +16,18 @@ export class AuthService {
         error => reject(error)
       )
     })
+  }
+
+  registerFireAuth(value) {
+    return new Promise<any>((resolve, reject) => {
+      firebase.auth().createUserWithEmailAndPassword(value.email, value.password).then(
+        res => resolve(res),
+        error => reject(error)
+      )
+    })
+  }
+
+  logoutFireAuth() {
+    firebase.auth().signOut()
   }
 }
