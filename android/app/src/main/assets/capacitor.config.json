@@ -1,0 +1,6 @@
+{
+	"appId": "com.dds.webapp",
+	"appName": "datadrivenstrengthwebapp",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

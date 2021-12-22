@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">datadrivenstrengthwebapp</string>
+    <string name="title_activity_main">datadrivenstrengthwebapp</string>
+    <string name="package_name">com.dds.webapp</string>
+    <string name="custom_url_scheme">com.dds.webapp</string>
+</resources>

@@ -1,7 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
-const firebaseConfig = {
+export const firebaseConfig = {
   apiKey: "AIzaSyBX89-L4jhAHnPhO35QO1IpPE8yO8NVOS0",
   authDomain: "datadrivenstrengthwebapp.firebaseapp.com",
   projectId: "datadrivenstrengthwebapp",
@@ -15,10 +15,7 @@ const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
 export const environment = {
-  production: false,
-  firebaseConfig,
-  app,
-  analytics
+  production: false
 };
 
 
